@@ -36,7 +36,6 @@ abstract class DbConnect
 
 	private static function connexion()
 	{
-// test
 		try {
 
 			$dsn = 'mysql:host=' . DB_HOST . ';port=' . DB_PORT;
