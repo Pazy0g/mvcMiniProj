@@ -1,0 +1,26 @@
+ /* Main */
+ 
+ body {
+
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: linear-gradient(lightblue, #FFF);
+	
+	font-family:verdana;
+	
+ }
+
+table {
+
+	font-size:12px auto;
+	background: #FFF;
+
+}
+ 
+button {
+	margin: 0 auto;
+ }
+ 
+ 

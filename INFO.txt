@@ -1,0 +1,39 @@
+
+
+Présentation d'une architecture Model Vue Controler (MVC) avec un objet de connexion PDO.
+
+Tout le code est commenté
+
+
+--------
+Principe 
+--------
+
+Base de compréhension d'un métier : "user"
+
+./controler/user
+./model/user
+./vue/user
+
+Lecture et affichage d'une base de données (READ)
+
+Mise à jour (UPDATE) des données via JQUERY et AJAX.
+
+Reste le CREATE et DELETE, non implémenté ici.
+
+Et optimiser la DAO.
+
+------------
+Installation
+------------
+
+Les paramètres de connexion au SGBDR sont stockés dans :
+
+./model/db_param.php
+
+
+L'installation de la base et peuplement de la table est automatique, gérée depuis le fichier : 
+
+./controler/setup.php
+
+

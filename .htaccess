@@ -1,0 +1,12 @@
+
+### Apache Web Server
+### Options de sécurité :
+
+Options -Indexes
+
+RewriteEngine On
+
+#Interdire l'acces aux dossiers :
+RewriteRule ^(controler|lib|model|vue) - [R=403,L]
+
+

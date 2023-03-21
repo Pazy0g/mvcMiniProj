@@ -1,0 +1,13 @@
+ /* 404 */
+ 
+ body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: linear-gradient(#EBFEF2, #BEFCD6);
+ }
+
+ img {
+	border: 1px dotted green;
+ }
