@@ -11,7 +11,3 @@ const DB_DATABASE = 'mini_projet'; //nom de la base de donn�es � s�l�cti
 // Rien � modifier ici noramlement
 const DB_HOST = 'localhost';
 const DB_PORT = '3306';
-
-
-
-//feokefpokefokefoekfeokfeokfeokfe
