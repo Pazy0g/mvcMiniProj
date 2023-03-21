@@ -13,7 +13,6 @@
 <div class="welcome" >
 	<h1>Bienvenue sur l'app MVC</h1>
 	<h1>ouhooooooooo</h1>
-	
 	<h2>
 	<a href="?read"/> Mes données clients</a>
 	</h2>

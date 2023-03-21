@@ -1,0 +1,18 @@
+{
+    "name": "mini/projet",
+    "description": "projet kercode",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mini\\Projet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ewen",
+            "email": "107175527+Pazy0g@users.noreply.github.com"
+        }
+    ]
+}
