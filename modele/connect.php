@@ -24,7 +24,7 @@ abstract class DbConnect
 			//Dbug
 			return $e->getMessage() . "<br>Impossible de récupérer les données sur la table :" . $in_table;
 		}
-		
+
 		$query->closeCursor();
 		self::connexion()->close();
 	}
@@ -36,7 +36,7 @@ abstract class DbConnect
 
 	private static function connexion()
 	{
-
+// test
 		try {
 
 			$dsn = 'mysql:host=' . DB_HOST . ';port=' . DB_PORT;
