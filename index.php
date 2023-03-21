@@ -5,11 +5,11 @@
 	*/
 	
 	require('modele/connect.php' );
-	
+	// test 132OKSODKSQD
 	//Parametres :
 	require('modele/db_param.php');
 	
-	//Aiguillage selectionné par GET (principe du routage) :
+	//Aiguillage selectionnï¿½ par GET (principe du routage) :
 	foreach ($_GET as $param_name => $param_val) {
 		
 		switch($param_name) {
@@ -33,5 +33,3 @@
 	
 	// Page par defaut :
 	if ( count($_GET) === 0 ) include( 'vue/intro.html' );
-	
-?>
